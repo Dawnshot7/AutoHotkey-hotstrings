@@ -130,6 +130,9 @@ CapsLock & 5::sendinput, !5							; Drag series down
 :?*:eml::											; Run current active file
 	sendinput, paul.cameron.haines+2gmail.com
 	return
+:?*:riftpass::											; Run current active file
+	sendinput, Hsack731+3
+	return
 :*?:jj::{Esc}										; Press Escape
 CapsLock & /::sendinput, {Shift up}^f				; Find
 CapsLock & 1::sendinput, ^{-}						; Zoom out
